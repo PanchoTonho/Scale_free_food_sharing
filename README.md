@@ -42,6 +42,7 @@ DT, constr_dict, outp_df, ph, type_min, list_m_r_inds, idbr_leaf_nodes, masks, n
 which prints summary statistics (some percentile values of required variable p_vr) on each tree leaf, and prints a number n_s of randomly sampled networks from the subset of each tree leaf where the variable p_vr has a value greater than 0.5 (designed for the p-value). This method recovers in the dataframe outp_df either the estimators of the tail exponent (from Voitalov et al 2019) of in, outdegree distribution, and the p-value, xmin and alpha estimated by poweRlaw. The outputs of these method have the same semantics as graph_DT_PF_ph() in the companion repo. Read the documentation.pdf file on the companion repo for more info about the outputs of this method. The arguments of this method are the following.
 
 opt           the type of optima (1: RV, 2: WEF, 3: PF)
+
 seed          the seed used to produce the clustering and decision tree datasets. Read the documentation.pdf file on the companion repo.
 root          the address of the directory storing all the datasets and codes you download from here.
 n_DT          ID of the decision tree to visualize the dataset. Read the documentation.pdf file on the companion repo.
