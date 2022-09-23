@@ -26,8 +26,11 @@ https://github.com/ivanvoitalov/tail-estimation
 export_binary_encodings(path,n_cores=None,direct=True,N=12) to compute a binary encoding of all the networks, stored in encod_all_optima.csv, which is the input for the code in test_power_law_ddd_opt_nw.R which is the R script that computes the power-law fitting described in the analyses. The R script makes use of the following libraries,
 
 igraph        https://igraph.org/r/
+
 poweRlaw      https://cran.r-project.org/web/packages/poweRlaw/index.html
+
 foreach       https://cran.r-project.org/web/packages/foreach/index.html
+
 doParallel    https://cran.r-project.org/web/packages/doParallel/index.html
 
 This script produced the files all_data_pl_fit_ddd.csv, all_data_pl_fit_degreeDistr.csv, which are then opened in Python and analyzed by the following script. 
