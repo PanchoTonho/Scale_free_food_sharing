@@ -91,6 +91,7 @@ DT, constr_dict, outp_df_WEF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, mas
 also use p_vr=1
 
 and lines (c=0.5,25,50,75,99.5)
+
 str(round(np.percentile(outp_df_WEF['in_deg_var'], c,axis=0),2))
 str(round(np.percentile(outp_df_WEF['out_deg_var'], c,axis=0),2))
 
@@ -110,6 +111,7 @@ DT, constr_dict, outp_df_PF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, mask
 also use p_vr=6
 
 and lines (c=0.5,25,50,75,99.5)
+
 str(round(np.percentile(outp_df_PF['mean_out_deg'], c,axis=0),2))
 str(round(np.percentile(outp_df_PF['out_deg_var'], c,axis=0),2))
 
