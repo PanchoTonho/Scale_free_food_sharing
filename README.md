@@ -93,6 +93,7 @@ also use p_vr=1
 and lines (c=0.5,25,50,75,99.5)
 
 str(round(np.percentile(outp_df_WEF['in_deg_var'], c,axis=0),2))
+
 str(round(np.percentile(outp_df_WEF['out_deg_var'], c,axis=0),2))
 
 Table C.3 and Figure C.1 (c) 
@@ -113,6 +114,7 @@ also use p_vr=6
 and lines (c=0.5,25,50,75,99.5)
 
 str(round(np.percentile(outp_df_PF['mean_out_deg'], c,axis=0),2))
+
 str(round(np.percentile(outp_df_PF['out_deg_var'], c,axis=0),2))
 
 Other multiobjective networks
