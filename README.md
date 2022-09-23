@@ -83,6 +83,7 @@ DT, constr_dict, outp_df_WEF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, mas
 also use p_vr=26, 27, 29
 
 Table C.2
+
 DT, constr_dict, outp_df_WEF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, masks, nw_IDs, nw_mv=graph_DT_plus_pl_degDistr(opt=2,seed=400,root="",n_DT=2,ph=0,F_nh_small=True,proc_NA=False,mnp=0.02,is_dir=True,lay=False,p_vr=0,to_file=False,extra_DTfeat=None,n_s=2) 
 also use p_vr=1
 
@@ -91,14 +92,17 @@ str(round(np.percentile(outp_df_WEF['in_deg_var'], c,axis=0),2))
 str(round(np.percentile(outp_df_WEF['out_deg_var'], c,axis=0),2))
 
 Table C.3 and Figure C.1 (c) 
+
 DT, constr_dict, outp_df_RV, opt, type_min, list_m_r_inds, idbr_leaf_nodes, masks, nw_IDs, nw_mv=graph_DT_plus_pl_degDistr(opt=1,seed=400,root="",n_DT=14,ph=0,F_nh_small=True,proc_NA=True,mnp=0.02,is_dir=True,lay=False,p_vr=22,to_file=False,extra_DTfeat=None,n_s=3)
 also use p_vr=24, 25, 27 
 
 Table C.4 and Figure C.2 
+
 DT, constr_dict, outp_df_PF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, masks, nw_IDs, nw_mv=graph_DT_plus_pl_degDistr(opt=3,seed=50,root="",n_DT=20,ph=0.02,F_nh_small=True,proc_NA=True,mnp=0.02,is_dir=True,lay=False,p_vr=20,to_file=False,extra_DTfeat=None,n_s=2) 
 also use p_vr=22, 23, 25
 
 Table C.5
+
 DT, constr_dict, outp_df_PF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, masks, nw_IDs, nw_mv=graph_DT_plus_pl_degDistr(opt=3,seed=50,root="",n_DT=20,ph=0.02,F_nh_small=True,proc_NA=True,mnp=0.02,is_dir=True,lay=False,p_vr=0,to_file=False,extra_DTfeat=None,n_s=2)
 also use p_vr=6
 
@@ -107,6 +111,7 @@ str(round(np.percentile(outp_df_PF['mean_out_deg'], c,axis=0),2))
 str(round(np.percentile(outp_df_PF['out_deg_var'], c,axis=0),2))
 
 Other multiobjective networks
+
 DT, constr_dict, outp_df_PF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, masks, nw_IDs, nw_mv=graph_DT_plus_pl_degDistr(opt=3,seed=50,root="",n_DT=12,ph=0.08,F_nh_small=True,proc_NA=True,mnp=0.02,is_dir=True,lay=False,p_vr=20,to_file=False,extra_DTfeat=None,n_s=2)
 
 DT, constr_dict, outp_df_PF, opt, type_min, list_m_r_inds, idbr_leaf_nodes, masks, nw_IDs, nw_mv=graph_DT_plus_pl_degDistr(opt=3,seed=50,root="",n_DT=7,ph=0.15,F_nh_small=True,proc_NA=True,mnp=0.02,is_dir=True,lay=False,p_vr=20,to_file=False,extra_DTfeat=None,n_s=2)
